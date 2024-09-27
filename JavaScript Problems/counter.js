@@ -1,7 +1,7 @@
 // In the video game Destiny 2, there are a number of perks that can replenish ammo to your equipped weapon based on meeting 
 // certain criteria, such as landing multiple shots in a row. Two of these perks are Triple Tap (landing three shots in a row returns one ammo)
 // and Fourth Times the Charm (landing four shots returns two ammo), based on having these perks, I wanted to write functions that coould tell you how 
-//many bullets you could shoot in a row assuming all landed shots, based on a base magazine size.
+// many bullets you could shoot in a row assuming all landed shots, based on a base magazine size.
 
 function counter(baseMag) {
     let count = 0;

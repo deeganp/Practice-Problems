@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Can Border</title>
+    <style>
+        .post {
+            border: 2px solid #000;
+            padding: 20px;
+            margin: 20px;
+            position: relative;
+        }
+
+        .disliked {
+            border-color: rgb(66, 143, 36);
+            border-width: 10px;
+            background-color: #fafafa;
+            width: 40rem;
+        }
+
+        .trash-can {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="post disliked">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate.</p>
+        <img src="https://img.freepik.com/free-psd/trash-can-isolated-transparent-background_191095-24220.jpg?w=740&t=st=1724372726~exp=1724373326~hmac=3b3dcc0745f4038643ba72125ebaf83bb0fe8885bedfd672b22a2cfd32b73c96" alt="Trash Can" class="trash-can">
+    </div>
+
+    <div class="post">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate.</p>
+    </div>
+</body>
+</html>
